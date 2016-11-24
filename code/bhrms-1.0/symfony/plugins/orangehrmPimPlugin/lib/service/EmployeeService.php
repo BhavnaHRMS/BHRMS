@@ -1403,6 +1403,13 @@ class EmployeeService extends BaseService {
         return $this->getEmployeeDao()->getEmailList();
     }
 
+    //change for ID list
+
+
+    public function getEIDList() {
+        return $this->getEmployeeDao()->getEIDList();
+    }
+
     /**
      * Get emp numbers of all subordinates in the system
      * 

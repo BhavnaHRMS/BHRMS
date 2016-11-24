@@ -1771,6 +1771,23 @@ class EmployeeDao extends BaseDao {
         
     }
 
+    //change for id list
+    public function getEIDList() {
+        try {
+            $q = Doctrine_Query :: create()
+                            ->select('e.employee_id')
+                            ->from('Employee e');
+
+            return $q->fetchArray();
+            
+        // @codeCoverageIgnoreStart
+        } catch (Exception $e) {
+            throw new DaoException($e->getMessage(), $e->getCode(), $e);
+        }
+        // @codeCoverageIgnoreEnd
+        
+    }
+
     public function terminateEmployment(EmployeeTerminationRecord $employeeTerminationRecord) {
 
         try {

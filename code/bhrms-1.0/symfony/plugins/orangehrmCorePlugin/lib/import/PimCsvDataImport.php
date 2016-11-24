@@ -26,9 +26,13 @@ class PimCsvDataImport extends CsvDataImport {
 
 	public function import($data) {
 
+/*		if($this->isUniqueEID($data[3])==false){
+			return false;
+		}*/
 		if ($data[0] == "" || $data[2] == "" || strlen($data[0]) > 30 || strlen($data[2]) > 30) {
 			return false;
 		}
+
 		$employee = new Employee();
 		$employee->setFirstName($data[0]);
 		if (strlen($data[1]) <= 30) {
@@ -112,8 +116,50 @@ class PimCsvDataImport extends CsvDataImport {
 			$employee->setEmpOthEmail($data[21]);
 		}
 
+//PF Number
+		if (strlen($data[22]) <= 20) {
+					$employee->setSsn($data[22]);
+				}
+
+//UAN number
+		if (strlen($data[23]) <= 50) {
+					$employee->setSin($data[23]);
+				}
+
+//Bank Account Number
+		if (strlen($data[24]) <= 30) {
+					$employee->setCustom6($data[24]);
+				}
+
+//Permanent Address street 1
+		if (strlen($data[25]) <= 100) {
+					$employee->setCustom1($data[25]);
+				}
+
+//Permanent Address street 2
+	    if (strlen($data[26]) <= 100) {
+					$employee->setCustom4($data[26]);
+				}
+//Postal_city
+		if (strlen($data[27]) <= 100) {
+					$employee->setCustom5($data[27]);
+				}
+
+//Band
+		if (strlen($data[28]) <= 20) {
+					$employee->setCustom3($data[28]);
+				}
+
+//notice period
+		if (strlen($data[29]) <= 20) {
+					$employee->setCustom2($data[29]);
+				}
+
 		$empService = new EmployeeService();
 		$empService->saveEmployee($employee);
+
+
+
 		return true;
 	}
 
@@ -128,6 +174,21 @@ class PimCsvDataImport extends CsvDataImport {
 		foreach ($emailList as $empEmail) {
 
 			if ($empEmail['emp_work_email'] == $email || $empEmail['emp_oth_email'] == $email) {
+				$isUnique = false;
+			}
+		}
+		return $isUnique;
+	}
+
+	//change for ID list
+
+	private function isUniqueEID($eid) {
+
+		$eidList = $this->getEmployeeService()->getEIDList();
+		$isUnique = true;
+		foreach ($eidList as $empid) {
+
+			if ($empid == $eid ) {
 				$isUnique = false;
 			}
 		}

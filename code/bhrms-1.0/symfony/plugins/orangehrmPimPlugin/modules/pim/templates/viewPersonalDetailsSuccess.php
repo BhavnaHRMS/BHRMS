@@ -56,26 +56,26 @@ use_stylesheet(plugin_web_path('orangehrmPimPlugin', 'css/viewPersonalDetailsSuc
                             <?php echo $form['txtEmployeeId']->render(array("maxlength" => 10, "class" => "editable")); ?>
                         </li>
                         <li>
-                            <label for="personal_txtOtherID"><?php echo __('Other Id'); ?></label>
+                            <label for="personal_txtOtherID"><?php echo __('Blood Group'); ?></label>
                             <?php echo $form['txtOtherID']->render(array("maxlength" => 30, "class" => "editable")); ?>
                         </li>
                         <li class="long">
-                            <label for="personal_txtLicenNo"><?php echo __("Driver's License Number"); ?></label>
+                            <label for="personal_txtLicenNo"><?php echo __("PAN Number"); ?></label>
                             <?php echo $form['txtLicenNo']->render(array("maxlength" => 30, "class" => "editable")); ?>
                         </li>
                         <li>
-                            <label for="personal_txtLicExpDate"><?php echo __('License Expiry Date'); ?></label>
+                            <label for="personal_txtLicExpDate"><?php echo __('Wedding Anniversary'); ?></label>
                             <?php echo $form['txtLicExpDate']->render(array("class"=>"calendar editable")); ?>
                         </li>
                         <?php if ($showSSN) : ?>
                         <li class="new">
-                            <label for="personal_txtNICNo"><?php echo __('SSN Number'); ?></label>
+                            <label for="personal_txtNICNo"><?php echo __('PF Number'); ?></label>
                             <?php echo $form['txtNICNo']->render(array("class" => "editable", "maxlength" => 30)); ?>
                         </li>                    
                         <?php endif; ?>
                         <?php if ($showSIN) : ?>
                         <li class="<?php echo !($showSSN)?'new':''; ?>">
-                            <label for="personal_txtSINNo"><?php echo __('SIN Number'); ?></label>
+                            <label for="personal_txtSINNo"><?php echo __('UAN Number'); ?></label>
                             <?php echo $form['txtSINNo']->render(array("class" => "editable", "maxlength" => 30)); ?>
                         </li>                    
                         <?php endif; ?>                    
@@ -106,7 +106,7 @@ use_stylesheet(plugin_web_path('orangehrmPimPlugin', 'css/viewPersonalDetailsSuc
                     <?php if($showDeprecatedFields) : ?>    
                     <ol>
                         <li>
-                            <label for="personal_txtEmpNickName"><?php echo __("Nick Name"); ?></label>
+                            <label for="personal_txtEmpNickName"><?php echo __("Salary Bank Account Number"); ?></label>
                             <?php echo $form['txtEmpNickName']->render(array("maxlength" => 30, "class" => "editable")); ?>
                         </li>
                         <li>

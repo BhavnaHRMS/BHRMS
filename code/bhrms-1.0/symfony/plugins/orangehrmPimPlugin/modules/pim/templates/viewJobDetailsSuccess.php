@@ -79,10 +79,10 @@
                             <?php echo $form['sub_unit']->renderLabel(__('Sub Unit')); ?>
                             <?php echo $form['sub_unit']->render(array("class" => "formSelect")); ?>
                         </li>
-                        <li>
+                   <!--     <li>
                             <?php echo $form['location']->renderLabel(__('Location')); ?>
                             <?php echo $form['location']->render(array("class" => "formSelect")); ?>
-                        </li>
+                        </li> -->
                         <li>
                             <h2><?php echo __('Employment Contract'); ?></h2>
                         </li>
