@@ -40,7 +40,7 @@ $imagePath = theme_path("images/login");
     }
 
     #divUsername {
-        padding-top: 153px;
+        padding-top: 32px;
         padding-left: 50%;
     }
 
@@ -50,13 +50,13 @@ $imagePath = theme_path("images/login");
     }
 
     #txtUsername {
-        width: 240px;
+        width: 200px;
         border: 0px;
         background-color: transparent;
     }
 
     #txtPassword {
-        width: 240px;
+        width: 200px;
         border: 0px;
         background-color: transparent;
     }
@@ -65,7 +65,7 @@ $imagePath = theme_path("images/login");
         font-family: Arial, Helvetica, sans-serif;
         font-size: 11px;
         color: #666666;
-        vertical-align: middle;
+        /*vertical-align: middle;*/
         padding-top:0;
     }
     
@@ -105,7 +105,8 @@ $imagePath = theme_path("images/login");
 
     #divLogo {
         padding-left: 30%;
-        padding-top: 70px;
+        padding-top: 50px;
+        padding-bottom: 20px;
     }
 
     #spanMessage {
@@ -117,28 +118,29 @@ $imagePath = theme_path("images/login");
     }
     
     #logInPanelHeading{
-        position:absolute;
-        padding-top:100px;
-		padding-left:49.5%;
+        position:relative;
+        padding-top:43px;
+        padding-left:48%;
         font-family:sans-serif;
-        font-size: 15px;
-        color: #544B3C;
+        font-size: 18px;
+        color: #F0F0F0;
         font-weight: bold;
     }
     
     .form-hint {
-    color: #878787;
-    padding: 4px 8px;
-    position: relative;
-    left:-254px;
-}
+        color: #878787;
+        padding: 4px 8px;
+        position: relative;
+        left:-254px;
+    }
 
     
 </style>
 
+
 <div id="divLogin">
     <div id="divLogo">
-        <img src="<?php echo "{$imagePath}/logo.png"; ?>" />
+        <img src="<?php echo "{$imagePath}/logo.png"; ?>" / width="550" height="120">
     </div>
 
     <form id="frmLogin" method="post" action="<?php echo url_for('auth/validateCredentials'); ?>">
@@ -151,11 +153,11 @@ $imagePath = theme_path("images/login");
 
         <div id="divUsername" class="textInputContainer">
             <?php echo $form['Username']->render(); ?>
-          <span class="form-hint" ><?php echo __('Username'); ?></span> 
+          <!--<span class="form-hint" ><?php echo __('Username'); ?></span> -->
         </div>
         <div id="divPassword" class="textInputContainer">
             <?php echo $form['Password']->render(); ?>
-         <span class="form-hint" ><?php echo __('Password'); ?></span>
+         <!--<span class="form-hint" ><?php echo __('Password'); ?></span>-->
         </div>
         <div id="divLoginHelpLink"><?php
             include_component('core', 'ohrmPluginPannel', array(

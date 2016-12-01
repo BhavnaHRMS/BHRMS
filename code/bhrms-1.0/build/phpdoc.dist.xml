@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <phpdoc>
-  <title>OrangeHRM API</title>
+  <title>BHMS API</title>
   <parser>
     <target>dist/apidocs</target>
     <default-package-name>orangehrm</default-package-name>

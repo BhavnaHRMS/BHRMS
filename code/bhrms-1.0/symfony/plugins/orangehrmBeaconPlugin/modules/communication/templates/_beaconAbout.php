@@ -33,7 +33,7 @@
                     <br>
                     <div id = "registration-section">
                         <ol style="margin-top: 10px;"></ol>
-                        <div id="heartbeatDescription">
+                        <!--<div id="heartbeatDescription">
                             <p  ><span style="font-family: arial,helvetica,sans-seif;"><span>By enabling the <span>heartbeat</span> you allow</span>&nbsp; OrangeHRM to </span><span style="font-family: arial,helvetica,sans-serif;"><span style="font-family: arial,helvetica,sans-serif;">collect statistics about </span>usage in order to improve the user experience and performance. This function runs in the background and periodically sends data to the OrangeHRM Portal. THE DATA ARE JUST NUMBER TOTALS AND THEY DO NOT INCLUDE ANY PERSONAL INFORMATION.  Heartbeat tracks the number of users around the world and logs the time it takes to run database queries.</span><br /><br /></p>
                             <div>Also by enabling Heartbeat you will receive the following:<br /></div>
                             <ul>
@@ -45,19 +45,19 @@
 
                             <p><br />Please contact us with any questions or comments at <a href="mailto:legal@orangehrm.com" target="_blank">legal@orangehrm.com</a>.</p>
 
-                        </div>
-                        <ol>
+                        </div>-->
+                        <!--<ol>
                             <li>
                                 <?php echo $form->render(); ?>
                             </li>
-                        </ol>
+                        </ol>-->
 
 
                         <div class="modal-footer">
                             <br class="clear"/>
-                            <span id="messageToDisplayAbout" style="padding-left: 2px; display: none" class=""></span>
-                            <input type="button" class="btn"  id="heartbeatSubmitBtn" data-dismiss="modal" value="<?php echo __('Ok'); ?>" />
-                            <input type="button" id="heartbeatCancelBtn" class="btn reset" data-dismiss="modal" value="<?php echo __('Cancel'); ?>" />
+                            <!--<span id="messageToDisplayAbout" style="padding-left: 2px; display: none" class=""></span>
+                            <input type="button" class="btn"  id="heartbeatSubmitBtn" data-dismiss="modal" value="<?php echo __('Ok'); ?>" />-->
+                            <input type="button" id="heartbeatCancelBtn" class="btn" data-dismiss="modal" value="<?php echo __('Ok'); ?>" />
                         </div>
                     </div>
                 </div>

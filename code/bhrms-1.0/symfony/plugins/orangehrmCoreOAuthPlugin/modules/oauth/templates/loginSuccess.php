@@ -40,8 +40,10 @@ $imagePath = theme_path("images/login");
     }
 
     #divUsername {
-        padding-top: 153px;
-        padding-left: 50%;
+        padding-top: 100px;
+       /* padding-left: 50%;*/
+
+        
     }
 
     #divPassword {
@@ -117,13 +119,17 @@ $imagePath = theme_path("images/login");
     }
     
     #logInPanelHeading{
-        position:absolute;
+      /*  position:absolute;
         padding-top:100px;
 		padding-left:49.5%;
         font-family:sans-serif;
         font-size: 15px;
         color: #544B3C;
-        font-weight: bold;
+        font-weight: bold;*/
+
+        top: 170px;
+        position:absolute;
+
     }
     
     .form-hint {
@@ -138,7 +144,7 @@ $imagePath = theme_path("images/login");
 
 <div id="divLogin">
     <div id="divLogo">
-        <img src="<?php echo "{$imagePath}/logo.png"; ?>" />
+        <img src="<?php echo "{$imagePath}/logo.png"; ?>" / width="550" height="120">
     </div>
 
     <form id="frmLogin" method="post" action="<?php echo url_for('oauth/validateCredentials'); ?>">

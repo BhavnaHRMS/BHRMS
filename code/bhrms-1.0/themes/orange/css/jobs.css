@@ -117,7 +117,7 @@ div.novacancies {
 div.actionbar {
     width: 100%;
     display:block;
-    border-bottom: 1px solid #FAD163; 
+    border-bottom: 1px solid #63d1fa; 
     text-align:right;   
 }
 
@@ -135,7 +135,7 @@ div.applydiv {
     padding: 2px 0;   
     display:block;
     float:none;
-    border-bottom: 1px solid #FAD163;
+    border-bottom: 1px solid #63d1fa;
 }
 /* Vacancy list styling end */		
 

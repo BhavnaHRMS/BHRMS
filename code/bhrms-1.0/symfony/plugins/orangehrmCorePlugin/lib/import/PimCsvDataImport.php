@@ -29,7 +29,7 @@ class PimCsvDataImport extends CsvDataImport {
 /*		if($this->isUniqueEID($data[3])==false){
 			return false;
 		}*/
-		if ($data[0] == "" || $data[2] == "" || strlen($data[0]) > 30 || strlen($data[2]) > 30) {
+		if ($data[0] == "" || strlen($data[0]) > 30 ) {
 			return false;
 		}
 
@@ -117,17 +117,17 @@ class PimCsvDataImport extends CsvDataImport {
 		}
 
 //PF Number
-		if (strlen($data[22]) <= 20) {
+		if (strlen($data[22]) <= 100) {
 					$employee->setSsn($data[22]);
 				}
 
 //UAN number
-		if (strlen($data[23]) <= 50) {
+		if (strlen($data[23]) <= 100) {
 					$employee->setSin($data[23]);
 				}
 
 //Bank Account Number
-		if (strlen($data[24]) <= 30) {
+		if (strlen($data[24]) <= 100) {
 					$employee->setCustom6($data[24]);
 				}
 
@@ -138,7 +138,7 @@ class PimCsvDataImport extends CsvDataImport {
 
 //Permanent Address street 2
 	    if (strlen($data[26]) <= 100) {
-					$employee->setCustom4($data[26]);
+					$employee->setCustom2($data[26]);
 				}
 //Postal_city
 		if (strlen($data[27]) <= 100) {
@@ -147,12 +147,12 @@ class PimCsvDataImport extends CsvDataImport {
 
 //Band
 		if (strlen($data[28]) <= 20) {
-					$employee->setCustom3($data[28]);
+					$employee->setCustom4($data[28]);
 				}
 
 //notice period
 		if (strlen($data[29]) <= 20) {
-					$employee->setCustom2($data[29]);
+					$employee->setCustom3($data[29]);
 				}
 
 		$empService = new EmployeeService();

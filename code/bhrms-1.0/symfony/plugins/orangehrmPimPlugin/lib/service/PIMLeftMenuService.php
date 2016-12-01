@@ -72,10 +72,10 @@ class PIMLeftMenuService {
             'module' => 'pim',
             'data_groups' => array('qualification_work', 'qualification_education', 'qualification_skills', 'qualification_languages', 'qualification_license', 'qualifications_attachment', 'qualifications_custom_fields'),
             'label' => 'Qualifications'),
-        'viewMemberships' => array(
+       /* 'viewMemberships' => array(
             'module' => 'pim',
             'data_groups' => array('membership', 'membership_attachment', 'membership_custom_fields'),
-            'label' => 'Memberships')
+            'label' => 'Memberships')*/
     );    
 
     /**

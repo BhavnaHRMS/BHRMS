@@ -61,7 +61,7 @@ $helpLink = array("#welcome", "#license", "#DBCreation", "#systemChk", "#adminUs
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-<title>OrangeHRM Web Installation Wizard</title>
+<title>BHMS Web Installation Wizard</title>
 <link href="favicon.ico" rel="icon" type="image/gif"/>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <script language="JavaScript">

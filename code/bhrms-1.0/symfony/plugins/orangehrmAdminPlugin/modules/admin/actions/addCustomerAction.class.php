@@ -37,6 +37,7 @@ class addCustomerAction extends baseAdminAction {
 
         /* For highlighting corresponding menu item */
         $request->setParameter('initialActionName', 'viewCustomers');
+
         $this->customerPermissions = $this->getDataGroupPermissions('time_customers');
 
         $this->customerId = $request->getParameter('customerId');

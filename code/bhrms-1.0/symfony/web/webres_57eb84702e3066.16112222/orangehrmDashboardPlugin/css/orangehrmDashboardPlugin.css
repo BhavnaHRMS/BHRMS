@@ -52,7 +52,7 @@ div.formpage {
 }
 
 .config-listing thead tr {
-    background-color: #F28C38;
+    background-color: #3c56a0;
 }
 
 .config-listing tbody tr {
@@ -70,7 +70,7 @@ div.formpage {
 /*
 .ui-resizable, .ui-draggable { position: absolute !important;}*/
 .panel_resizable{
-    border: #F28C38 2px solid; 
+    border: #3c56a0 2px solid; 
     overflow: hidden !important;
     margin: 0;
     /*  padding: 10px;*/

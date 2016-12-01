@@ -232,7 +232,7 @@ use_javascript('orangehrm.datepicker.js');
         #criteria_fieldset,
         #display_field_selection,
         #display_fieldset{
-            border-color: #FAD163;
+            border-color: #63d1fa;
         }
 
         .paddingLeftRequired{

@@ -31,43 +31,43 @@ body {
 	float:left;
 	width:8px;
 	height:2px;
-	background: #FAD163 url(../../../../themes/orange/pictures/topleft.gif) no-repeat top left;
+	background: #63d1fa url(../../../../themes/orange/pictures/topleft.gif) no-repeat top left;
 }
 
 .outerbox .top .right{
 	float:right;
 	width:8px;
 	height:2px;
-	background: #FAD163 url(../../../../themes/orange/pictures/topright.gif) no-repeat top right;
+	background: #63d1fa url(../../../../themes/orange/pictures/topright.gif) no-repeat top right;
 }
 
 .outerbox .top .middle{
 	margin:0 8px;
-	background:#FAD163;
+	background:#63d1fa;
 	height:2px;
 }
 .outerbox .bottom .left{
 	float:left;
 	width:8px;
 	height:2px;
-	background: #FAD163 url(../../../../themes/orange/pictures/bottomleft.gif) no-repeat bottom left;
+	background: #63d1fa url(../../../../themes/orange/pictures/bottomleft.gif) no-repeat bottom left;
 }
 
 .outerbox .bottom .right{
 	float:right;
 	width:8px;
 	height:2px;
-	background: #FAD163 url(../../../../themes/orange/pictures/bottomright.gif) no-repeat bottom right;
+	background: #63d1fa url(../../../../themes/orange/pictures/bottomright.gif) no-repeat bottom right;
 }
 
 .outerbox .bottom .middle{
 	margin:0 8px;
-	background:#FAD163;
+	background:#63d1fa;
 	height:2px;
 }
 .outerbox .maincontent {
     background-color: white;
-	border:0px solid #FAD163;
+	border:0px solid #63d1fa;
 	border-width:0 1px;
     padding-bottom: 20px;
     height: auto;
@@ -86,7 +86,7 @@ div.mainHeading {
 	margin: -20px 0px 0px 0px;
 	width:auto;
 	border:0;
-	background-color: #FAD163;
+	background-color: #63d1fa;
 	color: black;
 	text-align:left;
 }
@@ -142,7 +142,7 @@ input.apply {
 }
 
 input.applyhov {
-	border-color: #c63 #c63 #930 #930 !important;
+	border-color: #36c #36c #039 #039 !important;
 }
 
 .plusOrMinusmark {
@@ -182,7 +182,7 @@ a:link, a:visited {
 }
 
 .verticalLine {
-    background-color: #FAD163;
+    background-color: #63d1fa;
     border: medium none;
     height: 2px;
     margin: 20px 20px 10px;

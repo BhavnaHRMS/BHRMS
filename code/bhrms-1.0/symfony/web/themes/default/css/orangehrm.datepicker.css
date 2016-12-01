@@ -1,13 +1,13 @@
 /* ------Custom CSS by OrangeHRM--------- */
 .ui-state-fullday a{
     background-image: none !important;
-    background-color: #F28C38 !important;
+    background-color: #3c56a0 !important;
     color: #000 !important;
 }
 
 .ui-state-halfday a{
     background-image: none !important;
-    background-color: #F9CDA9 !important;
+    background-color: #a9cdf9 !important;
     color: #000 !important;
 }
 

@@ -130,7 +130,7 @@ input.punchbuttonhov,
 input.plainbtnhov,
 input.longbtnhov,
 input.extralongbtnhov {
-	border-color: #c63 #c63 #930 #930 !important;
+	border-color: #36c #36c #039 #039 !important;
 }
 
 /* Back button */
@@ -153,7 +153,7 @@ div.mainHeading {
 	padding: 4px 0px 7px 8px;
 	width:auto;
 	border:0;
-	background-color: #FAD163;
+	background-color: #63d1fa;
 	color: black;
 	text-align:left;
 }
@@ -162,7 +162,7 @@ div.subHeading {
 	padding: 1px 0px 4px 8px;
 	width:auto;
 	border:0;
-	background-color: #FAD163;
+	background-color: #63d1fa;
 	color: black;
 	text-align:left;
 }
@@ -190,7 +190,7 @@ div.messagebar {
     margin: 0;
     padding: 2px 0 2px 0px;
     border-top: 0;
-    border-bottom:1px solid #FAD163;
+    border-bottom:1px solid #63d1fa;
     background-color: white;
 }
 
@@ -199,7 +199,7 @@ div.searchbox {
     margin: 0;
     padding: 6px 0 6px 0;
     border-top: 0;
-    border-bottom:1px solid #FAD163;
+    border-bottom:1px solid #63d1fa;
     background-color: white;
 }
 
@@ -233,12 +233,12 @@ table.data-table,
 table.table {
 	width: 100%;
 	border: none;
-	background-color:#FAD163;
+	background-color:#63d1fa;
 }
 
 table.data-table thead,
 table.table thead {
-	background-color:#FAD163;
+	background-color:#63d1fa;
 }
 
 table.data-table thead td,
@@ -320,7 +320,7 @@ table.table tr.even td {
 /* Start search page styling */
 .outerbox .formcontent {
     background-color: #FFF;
-	border:0px solid #FAD163;
+	border:0px solid #63d1fa;
 	border-width:0 2px;
 
 	/* Height given to give hasLayout to avoid peekaboo bug in IE */
@@ -367,8 +367,8 @@ div.pagingbar span.inactive {
 
 /* Results table in pim */
 div.pimpanel div.actionbar {
-	border-top: 1px solid #FAD163;
-	border-bottom: 1px solid #FAD163;
+	border-top: 1px solid #63d1fa;
+	border-bottom: 1px solid #63d1fa;
 }
 
 div.pimpanel div.actionbar div.actionbuttons {
@@ -381,43 +381,43 @@ div.pimpanel div.actionbar div.actionbuttons {
 	float:left;
 	width:8px;
 	height:2px;
-	background: #FAD163 url(../pictures/topleft.gif) no-repeat top left;
+	background: #63d1fa url(../pictures/topleft.gif) no-repeat top left;
 }
 
 .outerbox .top .right{
 	float:right;
 	width:8px;
 	height:2px;
-	background: #FAD163 url(../pictures/topright.gif) no-repeat top right;
+	background: #63d1fa url(../pictures/topright.gif) no-repeat top right;
 }
 
 .outerbox .top .middle{
 	margin:0 8px;
-	background:#FAD163;
+	background:#63d1fa;
 	height:2px;
 }
 .outerbox .bottom .left{
 	float:left;
 	width:8px;
 	height:2px;
-	background: #FAD163 url(../pictures/bottomleft.gif) no-repeat bottom left;
+	background: #63d1fa url(../pictures/bottomleft.gif) no-repeat bottom left;
 }
 
 .outerbox .bottom .right{
 	float:right;
 	width:8px;
 	height:2px;
-	background: #FAD163 url(../pictures/bottomright.gif) no-repeat bottom right;
+	background: #63d1fa url(../pictures/bottomright.gif) no-repeat bottom right;
 }
 
 .outerbox .bottom .middle{
 	margin:0 8px;
-	background:#FAD163;
+	background:#63d1fa;
 	height:2px;
 }
 .outerbox .maincontent {
     background-color: white;
-	border:0px solid #FAD163;
+	border:0px solid #63d1fa;
 	border-width:0 2px;
 
 	/* Height given to give hasLayout to avoid peekaboo bug in IE */
@@ -646,7 +646,7 @@ div.formbuttons {
 	padding-top: 10px;;
 	padding-bottom: 10px;
 	float:none;
-	border-top: 1px solid #FAD163;
+	border-top: 1px solid #63d1fa;
 }
 
 div.loading {
@@ -705,15 +705,15 @@ div.addPane {
 
 td.tabForm {
 	padding: 0;
-	border-top: 1px solid #FAD163;
-	border-right: 1px solid #FAD163;
-	border-bottom: 1px solid #FAD163;
-	border-left: 1px solid #FAD163;
+	border-top: 1px solid #63d1fa;
+	border-right: 1px solid #63d1fa;
+	border-bottom: 1px solid #63d1fa;
+	border-left: 1px solid #63d1fa;
 }
 
 td.leftList {
 	padding: 0;
-	border-right: 1px solid #FAD163;
+	border-right: 1px solid #63d1fa;
 }
 td.rightList {
 	padding: 0;
@@ -1048,7 +1048,7 @@ textarea {
 		font-size: 12px;
 		font-weight: bold;
 		color: #333333;
-		background-color: #FF9900;
+		background-color: #0099ff;
 		border-bottom: 1px solid #000000;
 		padding-left: 10px;
 		}
@@ -1063,14 +1063,14 @@ textarea {
         }
 	.search {
 		color: #ffffff;
-		background-color: #FF9900;
+		background-color: #0099ff;
 		border-bottom: 1px solid #000000;
 		padding-right: 10px;
 		text-align: right;
 		}
 	.searchSeparator {
 		border-bottom: 1px solid #000000;
-		background-color: #FF9900;
+		background-color: #0099ff;
 		background-image: url(../pictures/nSearchSeparator.gif);
 		padding-right: 10px;
 		width: 12px;
@@ -1664,7 +1664,7 @@ table.simpleList td {
 
    .outerBorder {
       width: 600px;
-      border:2px #FAD163 solid;
+      border:2px #63d1fa solid;
 	}
 
     .smallHelpText {

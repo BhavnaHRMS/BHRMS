@@ -130,7 +130,7 @@ if (@include_once ROOT_PATH."/lib/confs/Conf.php-distribution") {
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-<title>OrangeHRM System Information</title>
+<title>BHMS System Information</title>
 <link href="themes/beyondT/icons/icon_wand.gif" rel="icon" type="image/gif"/>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <script language="javascript">
